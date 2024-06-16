@@ -1,0 +1,21 @@
+.photo-card {
+  width: 175px;
+  margin: 5px;
+  text-align: left;
+  display: inline-block;
+
+  .image-container {
+    position: relative;
+
+    img.mat-mdc-card-image {
+      background-color: #f9f9f9;
+      object-fit: contain;
+      height: 104px;
+      width: 174px;
+    }
+  }
+  .title {
+    font-size: 18px;
+    // margin-bottom: 1.5em;
+  }
+}

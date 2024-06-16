@@ -1,0 +1,8 @@
+<mat-card class="photo-card" *ngIf="photo">
+    <div class="image-container">
+        <img mat-card-image [src]="photo.url" alt="photos">
+    </div>
+    <mat-card-content>
+        <mat-card-title class="title">{{photo.title}}</mat-card-title>
+    </mat-card-content>
+</mat-card>

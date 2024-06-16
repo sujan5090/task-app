@@ -1,0 +1,6 @@
+<div class="photo-manager" *ngIf="!isLoading">
+    <app-photo *ngFor="let photo of photos; let i = index" [photo]="photo"></app-photo>
+</div>
+<div *ngIf="isLoading" class="spinner">
+    <mat-spinner></mat-spinner>
+</div>
